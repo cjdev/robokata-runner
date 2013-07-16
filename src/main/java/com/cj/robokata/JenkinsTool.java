@@ -96,7 +96,8 @@ public class JenkinsTool {
 	}
 	
 	public enum JobStatus{
-			DISABLED, 
+			DISABLED,
+            NOTBUILT,
 			ABORTED,
 			RED, RED_ANIME, 
 			GREY, GREY_ANIME,
